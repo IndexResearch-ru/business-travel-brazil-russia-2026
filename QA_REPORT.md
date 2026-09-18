@@ -55,17 +55,17 @@
 - [x] Sitemap содержит каноническую summary page и не содержит superseded duplicate page.
 - [x] Shared analytics подключена.
 - [x] robots.txt / Clean-param / IndexNow key уже проходят инфраструктурный QA.
-- [x] SITE QA PASSED: 15 HTML pages checked, run 35332327461.
+- [x] SITE QA PASSED: 15 HTML pages checked, run 35333202788.
 - [x] IndexNow отправил https://indexresearch.ru/business-travel-brazil-russia-2026.html, HTTP 200.
-- [x] GitHub Pages build run 35332326679 завершился success.
+- [x] GitHub Pages build run 35333213292 завершился success.
 
 ## Дедупликация параллельного выпуска
 
-- [x] Найден параллельный репозиторий business-travel-brazil-russia-2026.
-- [x] Его версия оказалась промежуточной: 15 кандидатов, без Elcotour и BCD M&E.
-- [x] Старый repo помечен SUPERSEDED и ведет на канонический выпуск.
-- [x] Дублирующая HTML-страница business-travel-brazil-russia-2026.html удалена с indexresearch.ru.
-- [x] Старый asset удален с сайта.
+- [x] Во время параллельной сборки возник технический дубль brazil-business-delegations-mice-2026.
+- [x] Из него в канонический пользовательский репозиторий перенесен более полный 17-кандидатный корпус.
+- [x] Дублирующий repo помечен WITHDRAWN_DUPLICATE и ведет на канонический выпуск.
+- [x] Дублирующая HTML-страница brazil-business-delegations-mice-2026.html удалена с indexresearch.ru.
+- [x] Канонический asset business-travel-brazil-2026.svg опубликован; дубль не используется.
 - [x] Канонический выпуск — IndexResearch-ru/business-travel-brazil-russia-2026.
 
 ## Внутренний пакет
