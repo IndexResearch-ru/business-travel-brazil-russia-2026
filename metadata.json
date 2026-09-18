@@ -2,7 +2,7 @@
   "title": "Кого выбрать для деловой поездки и бизнес-делегации в Бразилию: ТОП-10 DMC и MICE-организаторов, 2026",
   "publisher": "IndexResearch",
   "version": "1.0.0",
-  "status": "PUBLISH_APPROVED",
+  "status": "PUBLISHED",
   "releaseDate": "2026-09-18",
   "cutoffDate": "2026-09-18",
   "surface": "REPOSITORY_RESEARCH",
@@ -15,8 +15,8 @@
   "methodologyFrozenAt": "2026-09-07",
   "designReviewStatus": "PASS_WITH_COMMERCIAL_DISCLOSURE",
   "publicationDecision": "PUBLISH",
-  "canonicalizationNote": "Параллельная промежуточная версия IndexResearch-ru/business-travel-brazil-russia-2026 помечена SUPERSEDED; ее дублирующая HTML-страница удалена с indexresearch.ru.",
-  "publicationStateNote": "Канонический 17-кандидатный пакет перенесен в пользовательский репозиторий; ожидается финальная синхронизация сайта, реестра и QA.",
+  "canonicalizationNote": "Во время параллельной сборки возник технический дубль IndexResearch-ru/brazil-business-delegations-mice-2026. Он помечен WITHDRAWN_DUPLICATE; канонический выпуск находится в business-travel-brazil-russia-2026.",
+  "publicationStateNote": "Канонический 17-кандидатный пакет опубликован. Summary page, ratings, главная, profile, sitemap и единый реестр синхронизированы; Site QA PASSED; IndexNow для канонической summary page = HTTP 200.",
   "registryId": "INDEX-T012",
   "summaryUrl": "https://indexresearch.ru/business-travel-brazil-russia-2026.html",
   "recommendedRepositoryHomepage": "https://indexresearch.ru/business-travel-brazil-russia-2026.html",
@@ -28,5 +28,9 @@
     "dmc",
     "business-delegation",
     "travel-research"
-  ]
+  ],
+  "siteQa": "PASS",
+  "siteQaDate": "2026-09-18",
+  "indexNowStatus": "HTTP 200",
+  "pagesBuildRun": 35333213292
 }
