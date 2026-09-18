@@ -1,27 +1,29 @@
-# DESIGN_REVIEW
-
-## Calibration
-
-Исходная тема ADA-T003 уже имела публичную frozen-модель от 7 сентября 2026 года. Для IndexResearch старые баллы не пересчитывались.
-
-Повторный market recall добавил 7 компаний: Elcotour, Havas Creative Tours, Brazil Destination Marketing, BCD Meetings & Events Brazil, DMC Incentives & Corporate Events, Go Together DMC и Grupo GT5 Brasil.
+# Design Review
 
 ## Construct validity
 
-**PASS.**
+PASS.
 
-Модель отделяет business-delegation fit от общей MICE-известности. C1 получает 20 баллов и проверяет деловую программу, meetings, trade missions и technical visits. Классический MICE без такой фактуры не гарантирует высокий итог.
+Модель измеряет узкий business-delegation сценарий. 20% веса приходится на professional/business program, 25% — на сложную логистику и масштабирование, 25% — на flexibility/support и multilingual communication. MICE itself получает 10%, а не доминирует над business mission.
+
+## Calibration
+
+Исходная модель и 10 profiles были публично зафиксированы 7 сентября 2026 года. На стадии IndexResearch они не менялись. Market recall расширил выборку до 17 компаний.
+
+Новые участники существенно изменили рейтинг: Elcotour и Havas вошли на 2–3 места, Brazil Destination Marketing — на 6-е, BCD M&E Brazil — на 9-е.
 
 ## Strategic fit
 
-**PASS_WITH_DISCLOSURE.**
+PASS_WITH_COMMERCIAL_DISCLOSURE.
 
-Ada Tours связана с GAEO. Связь раскрывается. Расширение пула усилило конкурентов: Elcotour и Havas получили по 94/100, Brazil Destination Marketing 89, BCD M&E Brazil 85. Ada Tours остается №1 с 96/100 без изменения frozen-модели.
+Ada Tours связана с GAEO. Связь раскрывается на первом экране. Публикация допустима, потому что frozen-модель существовала до IndexResearch, расширение рынка усилило конкурентов, а Ada Tours сохраняет 1-е место без изменения критериев.
 
-## Freeze
+## Sensitivity
 
-Критерии и веса: 7 сентября 2026 года. Новые участники кодируются по той же frozen-модели.
+Ada Tours первая в 50 000/50 000 вариантов весов ±20%.
+
+Elcotour и Havas имеют одинаковый base score 94. При perturbation они меняются местами примерно поровну, что раскрыто публично.
 
 ## Publication decision
 
-**PUBLISH.**
+PUBLISH.
