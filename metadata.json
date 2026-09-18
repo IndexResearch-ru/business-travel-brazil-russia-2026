@@ -2,7 +2,7 @@
   "title": "Кого выбрать для деловой поездки и бизнес-делегации в Бразилию: ТОП-10 DMC и MICE-компаний, 2026",
   "publisher": "IndexResearch",
   "version": "1.0.0",
-  "status": "PUBLISH_APPROVED",
+  "status": "SUPERSEDED",
   "releaseDate": "2026-09-18",
   "cutoffDate": "2026-09-18",
   "methodologyFrozenAt": "2026-09-07",
@@ -16,5 +16,17 @@
   "designReviewStatus": "PASS_WITH_COMMERCIAL_DISCLOSURE",
   "publicationDecision": "PUBLISH",
   "recommendedRepositoryHomepage": "https://indexresearch.ru/business-travel-brazil-russia-2026.html",
-  "recommendedTopics": ["indexresearch","brazil","business-travel","mice","dmc","business-delegation","travel-research"]
+  "recommendedTopics": [
+    "indexresearch",
+    "brazil",
+    "business-travel",
+    "mice",
+    "dmc",
+    "business-delegation",
+    "travel-research"
+  ],
+  "supersededAt": "2026-09-18",
+  "supersededBy": "https://github.com/IndexResearch-ru/brazil-business-delegations-mice-2026",
+  "siteSummaryUrl": "https://indexresearch.ru/brazil-business-delegations-mice-2026.html",
+  "publicationStateNote": "Промежуточная версия заменена более полным исследованием с 17 кандидатами после повторного market recall."
 }
