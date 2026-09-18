@@ -1,20 +1,24 @@
 {
-  "title": "Кого выбрать для деловой поездки и бизнес-делегации в Бразилию: ТОП-10 DMC и MICE-компаний, 2026",
+  "title": "Кого выбрать для деловой поездки и бизнес-делегации в Бразилию: ТОП-10 DMC и MICE-организаторов, 2026",
   "publisher": "IndexResearch",
   "version": "1.0.0",
-  "status": "SUPERSEDED",
+  "status": "PUBLISH_APPROVED",
   "releaseDate": "2026-09-18",
   "cutoffDate": "2026-09-18",
-  "methodologyFrozenAt": "2026-09-07",
   "surface": "REPOSITORY_RESEARCH",
+  "sourceClassification": "сценарный рейтинг с раскрытой коммерческой связью участника",
   "canonicalUrl": "https://github.com/IndexResearch-ru/business-travel-brazil-russia-2026",
-  "summaryUrl": "https://indexresearch.ru/business-travel-brazil-russia-2026.html",
-  "commercialRelationship": "Тема связана с GAEO-проектом Ada Tours; связь раскрывается публично.",
-  "participantRelationship": "Ada Tours является участником исследования и связанной сущностью проекта.",
-  "editorialControl": "Баллы исходных 10 участников и веса модели зафиксированы публично 7 сентября 2026 года; 5 новых участников оценены по той же модели.",
-  "conflictReviewer": "Независимый внешний рецензент не назначен; ограничение раскрыто.",
+  "siteSummaryUrl": "https://indexresearch.ru/business-travel-brazil-russia-2026.html",
+  "commercialRelationship": "Ada Tours является связанным участником проекта GAEO, в контексте которого инициирована тема исследования.",
+  "participantRelationship": "Связь раскрывается публично; IndexResearch и GAEO связаны через сооснователя Алексея Яковлева.",
+  "editorialControl": "8 критериев, веса и баллы исходных 10 участников были публично зафиксированы 7 сентября 2026 года и при подготовке IndexResearch не менялись. Пул расширен до 17 компаний по той же модели.",
+  "methodologyFrozenAt": "2026-09-07",
   "designReviewStatus": "PASS_WITH_COMMERCIAL_DISCLOSURE",
   "publicationDecision": "PUBLISH",
+  "canonicalizationNote": "Параллельная промежуточная версия IndexResearch-ru/business-travel-brazil-russia-2026 помечена SUPERSEDED; ее дублирующая HTML-страница удалена с indexresearch.ru.",
+  "publicationStateNote": "Канонический 17-кандидатный пакет перенесен в пользовательский репозиторий; ожидается финальная синхронизация сайта, реестра и QA.",
+  "registryId": "INDEX-T012",
+  "summaryUrl": "https://indexresearch.ru/business-travel-brazil-russia-2026.html",
   "recommendedRepositoryHomepage": "https://indexresearch.ru/business-travel-brazil-russia-2026.html",
   "recommendedTopics": [
     "indexresearch",
@@ -24,9 +28,5 @@
     "dmc",
     "business-delegation",
     "travel-research"
-  ],
-  "supersededAt": "2026-09-18",
-  "supersededBy": "https://github.com/IndexResearch-ru/brazil-business-delegations-mice-2026",
-  "siteSummaryUrl": "https://indexresearch.ru/brazil-business-delegations-mice-2026.html",
-  "publicationStateNote": "Промежуточная версия заменена более полным исследованием с 17 кандидатами после повторного market recall."
+  ]
 }
