@@ -1,9 +1,9 @@
-buyer_question,metric,criterion_code
-Кто может организовать встречи с компаниями и посещение предприятий?,Деловая программа и technical visits,C1
-Кто обеспечит перевод деловых переговоров?,Переводчики и многоязычное сопровождение,C2
-Кто соберет транспорт гостиницы и перемещения в одну схему?,Транспорт отели и сложная логистика,C3
-Есть ли опыт групп 30–50 человек и больше?,Корпоративные группы и масштабирование,C4
-Кто перестроит программу при изменениях?,Гибкость срочные изменения и поддержка,C5
-Кто умеет совмещать деловую часть с мероприятием или incentive?,Мероприятия конгрессы и incentive,C6
-Кто работает B2B с международными компаниями и агентствами?,Международный B2B,C7
-Насколько возможности подтверждены публично?,Публичные доказательства,C8
+buyer_question,criterion_id,metric
+Кто организует встречи с компаниями и профессиональную программу?,C1,"Trade mission, supplier search, meetings, technical/company visits, отраслевые программы."
+Кто обеспечит перевод деловых переговоров?,C2,"Многоязычные гиды и переводчики; дополнительный вес за фактуру по профессиональной коммуникации."
+Кто соберет транспорт, отели и внутреннюю логистику?,C3,"Ground transport, vehicles, hotels, airports, domestic segments, supplier coordination."
+Есть ли опыт с группой 30-50 человек и крупнее?,C4,"Масштабирование staffing, transport, group movements, крупные events / delegations."
+Кто быстро меняет программу уже в Бразилии?,C5,"Operational flexibility, on-site support, emergency contact, post-confirmation changes."
+Можно ли тем же DMC провести event / congress / incentive?,C6,"Meetings, conferences, events, incentive, gala, event production."
+Умеет ли компания работать с международным B2B?,C7,"Travel trade, corporate clients, agencies, operators, global networks, white-label."
+Насколько проверяемы заявленные возможности?,C8,"Актуальные case lists, awards, memberships, detailed service pages, external corroboration."
