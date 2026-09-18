@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#f6f6f6"/><rect x="60" y="55" width="1080" height="565" rx="26" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="95" y="118" font-family="Arial" font-size="30" font-weight="700">Операционная цепочка деловой делегации</text>
+<text x="95" y="154" font-family="Arial" font-size="18">Почему одной услуги недостаточно: изменение в одной точке затрагивает весь день</text>
+<g transform="translate(95,225)">
+<rect x="0" y="0" width="175" height="105" rx="16" fill="#eee" stroke="#111"/><text x="88" y="40" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700">Business agenda</text><text x="88" y="72" text-anchor="middle" font-family="Arial" font-size="14">встречи · визиты</text>
+<path d="M185 52 H245" stroke="#111" stroke-width="4" marker-end="url(#b)"/>
+<rect x="257" y="0" width="175" height="105" rx="16" fill="#eee" stroke="#111"/><text x="345" y="40" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700">Переводчики</text><text x="345" y="72" text-anchor="middle" font-family="Arial" font-size="14">переговоры · отрасль</text>
+<path d="M442 52 H502" stroke="#111" stroke-width="4" marker-end="url(#b)"/>
+<rect x="514" y="0" width="175" height="105" rx="16" fill="#eee" stroke="#111"/><text x="602" y="40" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700">Логистика</text><text x="602" y="72" text-anchor="middle" font-family="Arial" font-size="14">автобусы · отели</text>
+<path d="M699 52 H759" stroke="#111" stroke-width="4" marker-end="url(#b)"/>
+<rect x="771" y="0" width="175" height="105" rx="16" fill="#eee" stroke="#111"/><text x="859" y="40" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700">Event / dinner</text><text x="859" y="72" text-anchor="middle" font-family="Arial" font-size="14">venue · production</text>
+</g>
+<path d="M952 330 C1015 380, 1015 440, 885 470" stroke="#111" stroke-width="4" fill="none" marker-end="url(#b)"/>
+<rect x="680" y="430" width="320" height="100" rx="18" fill="#111"/>
+<text x="840" y="470" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#fff">Оперативное изменение программы</text>
+<text x="840" y="500" text-anchor="middle" font-family="Arial" font-size="15" fill="#fff">кто перестраивает всю цепочку?</text>
+<text x="95" y="570" font-family="Arial" font-size="17">IndexResearch · buyer scenario: business mission / official delegation</text>
+<defs><marker id="b" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker></defs>
+</svg>
