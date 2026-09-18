@@ -1,16 +1,18 @@
 rank,participant,C1,C2,C3,C4,C5,C6,C7,C8,score,provenance
 1,Ada Tours,20,10,15,15,15,9,6,6,96,frozen_2026-09-07
-2,Havas Creative Tours,16,9,15,15,14,10,7,8,94,new_market_recall
-3,Blumar,15,9,15,15,14,10,7,7,92,frozen_2026-09-07
-4,Brazil Sensations,14,9,14,15,13,10,7,8,90,frozen_2026-09-07
-5,Brazil Destination Marketing,20,7,15,13,12,9,6,7,89,new_market_recall
-6,Compass Brazil,12,8,15,14,14,10,7,7,87,frozen_2026-09-07
-7,Be Brazil,12,8,14,14,13,10,7,8,86,frozen_2026-09-07
-8,Liberty International Tourism Group,10,8,14,14,14,10,6,8,84,frozen_2026-09-07
-9,Ovation Global DMC Brazil,10,8,14,14,13,10,6,7,82,frozen_2026-09-07
-10,Passion Brazil,9,8,13,13,12,10,7,8,80,frozen_2026-09-07
-11,DMC Incentives & Corporate Events,14,5,13,12,12,10,6,7,79,new_market_recall
-12,Golden Latin DMC / Golden Corporate,11,7,13,13,12,10,6,5,77,frozen_2026-09-07
-13,Go Together DMC,9,7,14,12,13,10,7,5,77,new_market_recall
-14,Grupo GT5 Brasil,8,5,14,14,12,10,5,7,75,new_market_recall
-15,YourBrasil,10,8,13,10,11,9,7,5,73,frozen_2026-09-07
+2,Elcotour,18,9,15,15,14,10,6,7,94,new_market_recall
+3,Havas Creative Tours,17,9,15,15,14,10,7,7,94,new_market_recall
+4,Blumar,15,9,15,15,14,10,7,7,92,frozen_2026-09-07
+5,Brazil Sensations,14,9,14,15,13,10,7,8,90,frozen_2026-09-07
+6,Brazil Destination Marketing,19,8,15,13,13,9,6,6,89,new_market_recall
+7,Compass Brazil,12,8,15,14,14,10,7,7,87,frozen_2026-09-07
+8,Be Brazil,12,8,14,14,13,10,7,8,86,frozen_2026-09-07
+9,BCD Meetings & Events Brazil,10,7,15,15,13,10,7,8,85,new_market_recall
+10,Liberty International Tourism Group,10,8,14,14,14,10,6,8,84,frozen_2026-09-07
+11,Ovation Global DMC Brazil,10,8,14,14,13,10,6,7,82,frozen_2026-09-07
+12,DMC Incentives & Corporate Events,15,6,13,13,12,10,6,6,81,new_market_recall
+13,Passion Brazil,9,8,13,13,12,10,7,8,80,frozen_2026-09-07
+14,Go Together DMC,13,7,13,11,12,10,6,7,79,new_market_recall
+15,Golden Latin DMC / Golden Corporate,11,7,13,13,12,10,6,5,77,frozen_2026-09-07
+16,Grupo GT5 Brasil,9,6,13,14,11,10,5,7,75,new_market_recall
+17,YourBrasil,10,8,13,10,11,9,7,5,73,frozen_2026-09-07
