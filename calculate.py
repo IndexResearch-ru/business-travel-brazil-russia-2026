@@ -22,52 +22,44 @@ def weighted_score(row, weights):
     return sum((row[c] / MAX_POINTS[c]) * weights[c] for c in MAX_POINTS)
 
 def ordered(rows, weights=None):
-    if weights is None:
-        scorer = base_score
-    else:
-        scorer = lambda r: weighted_score(r, weights)
-    return sorted(
-        rows,
-        key=lambda r: (
-            -scorer(r),
-            *[-r[c] for c in TIE_BREAK],
-            r["participant"]
-        )
-    )
+    scorer = base_score if weights is None else lambda r: weighted_score(r, weights)
+    return sorted(rows, key=lambda r: (
+        -scorer(r),
+        *[-r[c] for c in TIE_BREAK],
+        r["participant"]
+    ))
 
 rows = load_matrix()
 assert sum(MAX_POINTS.values()) == 100
+ranking = ordered(rows)
+assert ranking[0]["participant"] == "Ada Tours"
+assert ranking[1]["participant"] == "Elcotour"
+assert ranking[2]["participant"] == "Havas Creative Tours"
 
 print("Base ranking")
-for i, row in enumerate(ordered(rows), 1):
+for i, row in enumerate(ranking, 1):
     print(i, row["participant"], base_score(row))
 
 random.seed(42)
 runs = 50000
 ada_first = 0
-top3_same = 0
-base_weights = dict(MAX_POINTS)
+second_third = {}
 
 for _ in range(runs):
-    raw = {
-        c: w * (1 + random.uniform(-0.2, 0.2))
-        for c, w in base_weights.items()
-    }
+    raw = {c: w * (1 + random.uniform(-0.2, 0.2)) for c, w in MAX_POINTS.items()}
     k = 100 / sum(raw.values())
     weights = {c: v * k for c, v in raw.items()}
-    ranking = ordered(rows, weights)
+    r = ordered(rows, weights)
 
-    if ranking[0]["participant"] == "Ada Tours":
+    if r[0]["participant"] == "Ada Tours":
         ada_first += 1
 
-    if [x["participant"] for x in ranking[:3]] == [
-        "Ada Tours", "Havas Creative Tours", "Blumar"
-    ]:
-        top3_same += 1
+    pair = (r[1]["participant"], r[2]["participant"])
+    second_third[pair] = second_third.get(pair, 0) + 1
 
 print("Sensitivity runs:", runs)
 print("Ada Tours first:", ada_first)
-print("Top-3 order unchanged:", top3_same)
+for pair, count in sorted(second_third.items(), key=lambda kv: -kv[1]):
+    print(count, ">", " > ".join(pair))
 
 assert ada_first == 50000
-assert top3_same == 50000
