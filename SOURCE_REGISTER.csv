@@ -1,46 +1,33 @@
-source_id,participant,source_type,url,evidence_summary,checked_at,access
-S001,Ada Tours,official_business_mice,https://adatours.com/business-travel-mice,"MICE, events, congresses, meetings, multilingual guides/coordinators, transport, hotels, helicopters/private planes",2026-09-18,public
-S002,Ada Tours,official_about,https://adatours.com/about-us,"DMC Brazil/Latin America, multilingual team incl. Russian, business/MICE and corporate groups",2026-09-18,public
-S003,Ada Tours,official_dmc,https://adatours.com/south-america-dmc,"Brazil-based DMC, business travel theme, in-country partners and bespoke programs",2026-09-18,public
-S004,Ada Tours,official_product,https://adatours.com/best-of-rio-for-mice,"Published MICE program in Rio with corporate gathering, gala/networking and team-building options",2026-09-18,public
-S005,Ada Tours,official_review,https://adatours.com/coffee-tour-in-brazil,"Business-client review confirms support, São Paulo logistics and client-facing coordination",2026-09-18,public
-S006,Ada Tours,public_provenance,https://www.sostav.ru/blogs/292167/106831,"Original frozen 2026 ranking, criteria and 96/100 score published 7 Sep 2026",2026-09-18,public
-S007,Ada Tours,public_provenance,https://tenchat.ru/media/6121660-delovaya-poyezdka-v-braziliyu-10-dmc-dlya-delegatsiy-i-mice-reyting-2026,"Public TenChat variant of original business-delegation ranking",2026-09-18,public
-S008,Ada Tours,restricted_editorial_materials,,"Anonymized business-delegation evidence supplied to the original editorial review: supplier/company visits, interpreting, group logistics and schedule changes",2026-09-18,restricted
-S009,Havas Creative Tours,official_home,https://havasbrazil.com.br/,"DMC/incoming operator since 1989, Rio base, multilingual staff, Brazil-wide operation and 2026 MICE cases",2026-09-18,public
-S010,Havas Creative Tours,official_mice,https://havasbrazil.com.br/congresses-meetings/,"Congresses and meetings since 1994, corporate/government meetings, SITE/GDP links and detailed 2025-2026 event list",2026-09-18,public
-S011,Havas Creative Tours,official_incentive,https://havasbrazil.com.br/destinations/incentive-travel/,"Hundreds of incentives/congresses/events, high-level corporate/government meetings and large multinational groups",2026-09-18,public
-S012,Blumar,official_home,https://www.blumar.com.br/,"DMC/incoming operator with 40+ years, customized programs, incentive trips, groups, international travel-trade partners",2026-09-18,public
-S013,Blumar,official_industry_case,https://www.blumar.com.br/blog/post.php/blumar-dmc-at-fiexpo-latin-america-2026-strengthening-brazil-s-position-in-the-mice-market,"Blumar MICE participation at FIEXPO Latin America 2026 and international-buyer work",2026-09-18,public
-S014,Brazil Sensations,official_home,https://www.brazilsensations.com/en/,"Brazilian DMC in MICE/luxury, international team, individual/corporate clients, small and large projects",2026-09-18,public
-S015,Brazil Sensations,official_about,https://brazilsensations.com/en/about/,"International MICE team, in-house resources, large projects, corporate clients",2026-09-18,public
-S016,Brazil Sensations,industry_award,https://worldmiceawards.com/award/brazil-best-mice-organiser,"Brazil's Best MICE Organiser 2024 and 2025",2026-09-18,public
-S017,Brazil Destination Marketing,official_english,https://www.brazildestination.com.br/eng,"DMC since 1986; Congress & Convention, Trade Mission, special-interest services, transportation and technical assistance",2026-09-18,public
-S018,Brazil Destination Marketing,official_portuguese,https://www.brazildestination.com.br/pt,"Congress/event department, technical and commercial missions, technical visits, hotel blocks and transport",2026-09-18,public
-S019,Compass Brazil,official_mice,https://compassbrazil.com/mice/,"MICE planning, tailor-made technical itineraries, flexibility, post-trip support and Brazil-wide destination operation",2026-09-18,public
-S020,Compass Brazil,official_home,https://compassbrazil.com/,"Full-service DMC in Brazil with incentives, congresses and events",2026-09-18,public
-S021,Be Brazil,official_home,https://www.bebrazildmc.com.br/,"Brazilian DMC for incentive, meetings, events, corporate groups, venue research, accommodation and ground services",2026-09-18,public
-S022,Be Brazil,industry_award,https://worldmiceawards.com/award/brazil-best-mice-organiser,"Brazil's Best MICE Organiser 2020, 2022 and 2023",2026-09-18,public
-S023,Liberty International Tourism Group,official_brazil,https://www.liberty-int.com/our-destinations/Brazil,"Brazil DMC for corporate events, incentive travel and conferences with local/global logistics",2026-09-18,public
-S024,Ovation Global DMC Brazil,official_brazil,https://ovationdmc.com/destinations/brazil/,"São Paulo-based Brazil DMC for corporate meetings/incentives, venue sourcing, transport, production and international clients",2026-09-18,public
-S025,Passion Brazil,official_about,https://passionbrazil.com/who-we-are/,"Rio boutique DMC since 2004; business groups, events and incentive travel",2026-09-18,public
-S026,Passion Brazil,official_events,https://passionbrazil.com/special-events/,"Dedicated special-events team, corporate projects, negotiation, technical visits and before/during/after execution",2026-09-18,public
-S027,DMC Incentives & Corporate Events,official_services,https://dmcie.com.br/servicos,"Corporate events, incentive travel, live marketing and international missions",2026-09-18,public
-S028,DMC Incentives & Corporate Events,official_about,https://dmcie.com.br/sobre,"27 years, 500+ corporate/incentive events, Brazilian agency with global reach",2026-09-18,public
-S029,Golden Latin DMC / Golden Corporate,official_corporate,https://goldenlatin.com/golden-corporate/,"Business travel, meetings, conferences, group logistics, supplier management and on-site operations",2026-09-18,public
-S030,Golden Latin DMC / Golden Corporate,official_contact,https://goldenlatin.com/contact/,"Trade-only DMC with Brazil and USA offices",2026-09-18,public
-S031,Go Together DMC,official_dmc,https://gotogether.com.br/dmc-brazil/,"10+ years in MICE, events, incentives, bleisure, learning programs and Brazil offices",2026-09-18,public
-S032,Go Together DMC,industry_network,https://gda-dmc.com/destinations/dmc-brazil/,"Global DMC Alliance profile: corporate travel, incentives, conventions/events and executive programs",2026-09-18,public
-S033,Grupo GT5 Brasil,official_home,https://gt5.com.br/,"Integrated PCO+DMC for congresses, conventions, incentives and projects/events of any scale",2026-09-18,public
-S034,Grupo GT5 Brasil,official_services,https://gt5.com.br/servicos/,"Congress/convention logistics, hotel management, air tickets, suppliers and incentive operations",2026-09-18,public
-S035,Grupo GT5 Brasil,industry_destination_profile,https://salvadordestination.com/conteudo/19/Grupo-GT5-Brasil,"30+ years combined experience, DMC+PCO, congresses/conventions/incentives and destination management",2026-09-18,public
-S036,YourBrasil,official_home,https://yourbrasil.com/pt-br/,"Brazil DMC for travel agencies: ground transport, MICE, multilingual guides and nationwide coverage",2026-09-18,public
-S037,YourBrasil,official_partners,https://yourbrasil.com/pt-br/partners/,"White-label agency model, MICE, event logistics, multilingual guides and response target up to 48 business hours",2026-09-18,public
-S038,Elcotour,official_home,https://elcotour.com.br/,"Brazil DMC for MICE, technical groups, leisure groups and private charters",2026-09-18,public
-S039,Elcotour,official_technical_groups,https://elcotour.com.br/leisure-travel/,"Technical/specialty groups including aviation manufacturers, agricultural trips and professional visits",2026-09-18,public
-S040,Elcotour,official_large_scale,https://elcotour.com.br/pt/eventos-esportivos/,"Large-scale ground operations: 6900 guests at Rio Olympics 2016 and major World Cup handling",2026-09-18,public
-S041,Elcotour,official_about,https://elcotour.com.br/about-us/,"Long-standing Brazil DMC, multilingual guides, supplier network and operational support",2026-09-18,public
-S042,BCD Meetings & Events Brazil,official_brazil,https://bcdme.com/pt-br/,"Brazil M&E team, attendee management, production, venue sourcing, operations and large-event experience",2026-09-18,public
-S043,BCD Meetings & Events Brazil,official_contact,https://bcdme.com/pt-br/contato/,"Brazil office in São Paulo and direct local contact",2026-09-18,public
-S044,BCD Meetings & Events Brazil,official_services,https://bcdme.com/pt-br/o-que-fazemos/,"Meeting management, event solutions, attendee management, sourcing and scalable global corporate programs",2026-09-18,public
-
+source_id,participant,class,title,url,used_for,note
+S001,ALL,prior_publication,Sostav: ТОП-10 компаний для деловой поездки и делегации в Бразилию,https://www.sostav.ru/blogs/292167/106831,provenance,"Публичная версия от 07.09.2026: 8 критериев, веса, оценки 10 участников."
+S002,ALL,prior_publication,TenChat: Деловая поездка в Бразилию — 10 DMC для делегаций и MICE,https://tenchat.ru/media/6121660-delovaya-poyezdka-v-braziliyu-10-dmc-dlya-delegatsiy-i-mice-reyting-2026,provenance,"Адаптация той же темы; family_id=business_delegation_brazil_2026."
+S003,Ada Tours,official,Деловые поездки и делегации в Бразилию,https://brasiltours.ru/delovye-poezdki-i-delegacii-v-braziliyu,C1;C2;C3;C4;C5,"Прямой business-delegation продукт: встречи, перевод, транспорт, гостиницы и координация."
+S004,Ada Tours,official,Групповые туры и MICE,https://brasiltours.ru/gruppovye-tury-i-mice,C2;C3;C4;C5;C6,"Площадки, отели, транспорт, мероприятия, конгрессы, многоязычные гиды/координаторы."
+S005,Ada Tours,official,Ada Tours / Brasil Tours,https://brasiltours.ru/,C3;C5;C7;C8,"Принимающий оператор в Бразилии; общая география, команда и продукт."
+S006,Elcotour,official,About Us,https://elcotour.com.br/about-us/,C2;C3;C5;C7;C8,"DMC с 1983 года, multilingual guides, supplier network, проверка транспорта, 24/7 IT."
+S007,Elcotour,official,Leisure Travel / Technical Groups,https://elcotour.com.br/leisure-travel/,C1;C2;C3,"Technical groups: aviation manufacturers, agricultural trips, architecture and special-interest visits."
+S008,Elcotour,official,Incentives,https://elcotour.com.br/incentives/,C4;C5;C6;C8,"Incentive/MICE; около 20 000 incentive/leisure passengers annually; proactive support before/during/after."
+S009,Elcotour,official,Sport Events,https://elcotour.com.br/sport-events/,C3;C4;C5;C8,"FIFA World Cup 2014 — 45 000 гостей; Rio Olympics 2016 — 6 900; ground handling и staffing."
+S010,Havas Creative Tours,official,Congresses and Meetings,https://havasbrazil.com.br/congresses-meetings/,C3;C4;C5;C6;C8,"DMC с 1989; congresses/meetings с 1994; большой список проектов 2025–2026."
+S011,Havas Creative Tours,official,Home / DMC Brazil,https://havasbrazil.com.br/,C2;C3;C4;C6;C8,"Многоязычная команда, coverage all Brazil, актуальный календарь MICE 2026."
+S012,Havas Creative Tours,official,Contact / B2B model,https://havasbrazil.com.br/pt/contato/,C2;C7,"Работает B2B с travel agencies и tour operators worldwide; multilingual professionals."
+S013,Blumar,official,DMC & Incoming Tour Operator in Brazil,https://www.blumar.com.br/,C2;C3;C4;C5;C6;C7;C8,"40+ лет, customized programs, incentive trips, corporate groups, travel trade и corporate clients."
+S014,Blumar,official,MICE in Brazil: Complete Guide 2026,https://www.blumar.com.br/blog/post.php/mice-in-brazil-the-complete-guide-to-meetings-incentives-conferences-and-events-in-2026,C6;C8,"Актуальная профессиональная MICE-публикация 2026."
+S015,Brazil Sensations,independent_award,Brazil's Best MICE Organiser,https://worldmiceawards.com/award/brazil-best-mice-organiser,C6;C8,"Победитель Brazil's Best MICE Organiser 2024 и 2025."
+S016,Brazil Sensations,independent_award,Brazil's Best MICE Organiser 2025,https://worldmiceawards.com/award/brazil-best-mice-organiser/2025,C3;C4;C6;C7;C8,"Corporate, incentive, family, individual and group travel; external award context."
+S017,Brazil Destination Marketing,official,About / Trade Mission / Congress & Events,https://www.brazildestination.com.br/eng,C1;C3;C5;C6;C7,"DMC since 1986; Congress & Convention, Trade Mission, Special Interest Tours, international clients."
+S018,Brazil Destination Marketing,official,Missões Técnicas e Comerciais,https://www.brazildestination.com.br/pt,C1;C3;C5;C6;C8,"Technical and commercial missions, hotel, transport, hospitality desks, technical assistance."
+S019,Compass Brazil,official,MICE,https://compassbrazil.com/mice/,C1;C3;C5;C6;C7;C8,"С 1979; technical itineraries, planning process, agility, transport/convention facilities, post-trip support."
+S020,Compass Brazil,official,Full Service DMC,https://compassbrazil.com/,C3;C6;C7,"Full-service DMC; incentives groups, leisure, congress & events."
+S021,Be Brazil,official,BeBrazil DMC,https://www.bebrazildmc.com.br/,C3;C5;C6;C7;C8,"Meeting/event development, logistics, venue research, accommodation, ground services, corporate groups."
+S022,BCD Meetings & Events Brazil,official,Brasil,https://bcdme.com/pt-br/,C3;C4;C5;C6;C7;C8,"Brazil team; attendee management, production, venues, technology; manager experience with 1 500–15 000 people."
+S023,BCD Meetings & Events Brazil,official,Locations,https://bcdme.com/pt-br/localidades/,C3;C7,"Brazil office in São Paulo; LATAM/global office network."
+S024,Liberty International Tourism Group,official,DMC Brazil,https://www.liberty-int.com/our-destinations/Brazil,C3;C4;C5;C6;C7;C8,"Corporate events, incentive, conferences, seamless logistics, global network."
+S025,Ovation Global DMC Brazil,official,Brazil DMC for Corporate Events,https://ovationdmc.com/destinations/brazil/,C3;C4;C5;C6;C7;C8,"São Paulo team; corporate meetings, venue sourcing, ground transport, event production."
+S026,Passion Brazil,official,Special Events,https://passionbrazil.com/special-events/,C3;C5;C6;C7;C8,"С 2004; dedicated team for events, incentives, custom groups; foreign companies."
+S027,Golden Latin DMC / Golden Corporate,official,Golden Corporate,https://goldenlatin.com/golden-corporate/,C3;C4;C5;C6;C7,"Trade-only DMC; meetings, conferences, logistics, group coordination, suppliers, on-site operations."
+S028,YourBrasil,official,DMC Brasil para Agências de Viagens,https://yourbrasil.com/pt-br/partners/,C2;C3;C5;C6;C7,"White-label B2B, MICE, fleet coordination, multilingual guides, response within 48 business hours."
+S029,DMC Incentives & Corporate Events,official,Serviços / Missões Internacionais,https://dmcie.com.br/servicos,C1;C3;C6,"Corporate events, incentive travel, international missions, live marketing."
+S030,DMC Incentives & Corporate Events,official,Sobre a DMC,https://dmcie.com.br/sobre,C4;C5;C6;C8,"27 лет рынка, 500+ corporate/incentive events, авторское руководство."
+S031,Go Together DMC,official,DMC Brazil,https://gotogether.com.br/dmc-brazil/,C1;C3;C5;C6;C7;C8,"10+ лет MICE, executive programs, Learning Programs, fairs/events, operational precision."
+S032,Grupo GT5,official,PCO & DMC,https://gt5.com.br/,C3;C4;C5;C6;C7;C8,"PCO + DMC; congresses, conventions, incentives, suppliers, staff, logistics and events of any dimension."
