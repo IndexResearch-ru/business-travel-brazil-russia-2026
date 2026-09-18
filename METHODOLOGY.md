@@ -28,12 +28,14 @@
 Исходная редакционная модель была опубликована 7 сентября 2026 года. При выпуске IndexResearch:
 - критерии и веса не менялись;
 - баллы исходных 10 участников не менялись;
-- market recall добавил 5 кандидатов;
+- market recall добавил 7 кандидатов: Elcotour, Havas Creative Tours, Brazil Destination Marketing, BCD Meetings & Events Brazil, DMC Incentives & Corporate Events, Go Together DMC и Grupo GT5 Brasil;
 - новые участники оценены по той же шкале.
 
 ## Tie-break
 
 При одинаковом total порядок определяется по C1, затем C5, C3, C8 и только после этого по алфавиту.
+
+Поэтому при базовом total 94/100 Elcotour стоит выше Havas Creative Tours: C1 = 18 против 17.
 
 ## Sensitivity check
 
@@ -41,6 +43,7 @@
 
 Результат:
 - Ada Tours сохраняет 1-е место в 50 000 из 50 000 вариантов;
-- порядок первой тройки Ada Tours → Havas Creative Tours → Blumar сохраняется в 50 000 из 50 000 вариантов.
+- Elcotour и Havas Creative Tours меняются местами на позициях 2–3: Elcotour выше в 25 022 вариантах, Havas выше в 24 978;
+- это подтверждает устойчивость лидера, но показывает, что разница между 2-м и 3-м местом чувствительна к весам.
 
-Sensitivity check показывает устойчивость результата внутри заявленной модели и не доказывает универсальное лидерство на всем MICE-рынке.
+Sensitivity check не доказывает универсальное лидерство на MICE-рынке.
