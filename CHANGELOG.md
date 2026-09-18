@@ -12,11 +12,11 @@
 
 ## Канонизация и релизный QA — 2026-09-18
 
-- найден и помечен SUPERSEDED параллельный промежуточный repo business-travel-brazil-russia-2026;
-- дублирующая HTML-страница удалена с indexresearch.ru;
+- найден технический дубль brazil-business-delegations-mice-2026; его более полный 17-кандидатный корпус перенесен в пользовательский канонический repo business-travel-brazil-russia-2026, а дубль помечен WITHDRAWN_DUPLICATE;
+- дублирующая HTML-страница brazil-business-delegations-mice-2026.html удалена с indexresearch.ru;
 - канонический candidate pool = 17 компаний;
-- site QA: PASS, 15 HTML pages;
-- GitHub Pages build: success, run 35332326679;
+- site QA: PASS, 15 HTML pages, run 35333202788;
+- GitHub Pages build: success, run 35333213292;
 - IndexNow: canonical summary page submitted, HTTP 200;
 - metadata переведен в PUBLISHED;
 - внутренние Calibration Log и Publication Risk Review обновлены до финальной версии.
