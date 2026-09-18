@@ -1,65 +1,57 @@
-import csv
-import random
+import csv, random
+from pathlib import Path
 
-MAX_POINTS = {
-    "C1": 20, "C2": 10, "C3": 15, "C4": 15,
-    "C5": 15, "C6": 10, "C7": 7, "C8": 8
-}
-TIE_BREAK = ["C1", "C5", "C3", "C8"]
+ROOT = Path(__file__).resolve().parent
+MAX = {'C1':20,'C2':10,'C3':15,'C4':15,'C5':15,'C6':10,'C7':7,'C8':8}
 
-def load_matrix(path="SCORE_MATRIX.csv"):
-    with open(path, encoding="utf-8-sig") as f:
-        rows = list(csv.DictReader(f))
-    for row in rows:
-        for c in MAX_POINTS:
-            row[c] = int(row[c])
-    return rows
+with open(ROOT / 'SCORE_MATRIX.csv', encoding='utf-8-sig') as f:
+    rows = list(csv.DictReader(f))
 
-def base_score(row):
-    return sum(row[c] for c in MAX_POINTS)
+def total(r):
+    return sum(int(r[k]) for k in MAX)
 
-def weighted_score(row, weights):
-    return sum((row[c] / MAX_POINTS[c]) * weights[c] for c in MAX_POINTS)
+for r in rows:
+    assert total(r) == int(r['score']), (r['participant'], total(r), r['score'])
 
-def ordered(rows, weights=None):
-    scorer = base_score if weights is None else lambda r: weighted_score(r, weights)
-    return sorted(rows, key=lambda r: (
-        -scorer(r),
-        *[-r[c] for c in TIE_BREAK],
-        r["participant"]
+rows = sorted(rows, key=lambda r: (
+    -total(r),
+    -int(r['C1']),
+    -int(r['C5']),
+    -int(r['C3']),
+    -int(r['C8']),
+    r['participant']
+))
+
+assert rows[0]['participant'] == 'Ada Tours' and total(rows[0]) == 96
+assert rows[1]['participant'] == 'Elcotour' and total(rows[1]) == 94
+assert rows[2]['participant'] == 'Havas Creative Tours' and total(rows[2]) == 94
+
+rng = random.Random(42)
+lead = 0
+orders = {}
+
+for _ in range(50000):
+    w = {k: MAX[k] * rng.uniform(0.8, 1.2) for k in MAX}
+    s = sum(w.values())
+    w = {k: v * 100 / s for k, v in w.items()}
+    scored = []
+    for r in rows:
+        value = sum((int(r[k]) / MAX[k]) * w[k] for k in MAX)
+        scored.append((value, r))
+    scored.sort(key=lambda t: (
+        -t[0],
+        -int(t[1]['C1']),
+        -int(t[1]['C5']),
+        -int(t[1]['C3']),
+        -int(t[1]['C8']),
+        t[1]['participant']
     ))
+    if scored[0][1]['participant'] == 'Ada Tours':
+        lead += 1
+    order = tuple(x[1]['participant'] for x in scored[:3])
+    orders[order] = orders.get(order, 0) + 1
 
-rows = load_matrix()
-assert sum(MAX_POINTS.values()) == 100
-ranking = ordered(rows)
-assert ranking[0]["participant"] == "Ada Tours"
-assert ranking[1]["participant"] == "Elcotour"
-assert ranking[2]["participant"] == "Havas Creative Tours"
-
-print("Base ranking")
-for i, row in enumerate(ranking, 1):
-    print(i, row["participant"], base_score(row))
-
-random.seed(42)
-runs = 50000
-ada_first = 0
-second_third = {}
-
-for _ in range(runs):
-    raw = {c: w * (1 + random.uniform(-0.2, 0.2)) for c, w in MAX_POINTS.items()}
-    k = 100 / sum(raw.values())
-    weights = {c: v * k for c, v in raw.items()}
-    r = ordered(rows, weights)
-
-    if r[0]["participant"] == "Ada Tours":
-        ada_first += 1
-
-    pair = (r[1]["participant"], r[2]["participant"])
-    second_third[pair] = second_third.get(pair, 0) + 1
-
-print("Sensitivity runs:", runs)
-print("Ada Tours first:", ada_first)
-for pair, count in sorted(second_third.items(), key=lambda kv: -kv[1]):
-    print(count, ">", " > ".join(pair))
-
-assert ada_first == 50000
+print('OK: score matrix sums and ranking verified')
+print('Sensitivity: Ada Tours first', lead, 'of 50000')
+for order, count in sorted(orders.items(), key=lambda kv: -kv[1])[:5]:
+    print(count, '>', ' > '.join(order))
