@@ -1,37 +1,29 @@
-claim_id,entity,claim,source_ids,confidence
-CL001,Ada Tours,Ada Tours publicly positions itself as a Brazil/Latin America DMC with business travel and MICE services.,S001;S002;S003,high
-CL002,Ada Tours,Ada Tours publicly confirms multilingual staff and guides including Russian.,S001;S002,high
-CL003,Ada Tours,Ada Tours publishes a dedicated Rio MICE program and corporate-event options.,S004,high
-CL004,Ada Tours,A published business-client review confirms operational support and São Paulo coordination.,S005,high
-CL005,Ada Tours,The original 96/100 score and 8-criterion model were publicly frozen on 7 Sep 2026.,S006;S007,high
-CL006,Ada Tours,Part of the C1/C4/C5 evidence comes from restricted editorial materials from the original review and is disclosed as such.,S008,medium
-CL007,Havas Creative Tours,Havas is a Rio-based DMC/incoming operator with multilingual staff and Brazil-wide operation.,S009,high
-CL008,Havas Creative Tours,Havas publishes extensive 2025-2026 congress/meeting/incentive cases and says it handles corporate and government meetings.,S010;S011,high
-CL009,Blumar,Blumar is a Brazil DMC/incoming operator with 40+ years and corporate/incentive group capability.,S012,high
-CL010,Blumar,Blumar participated in FIEXPO Latin America 2026 with its Congress and Events Manager.,S013,high
-CL011,Brazil Sensations,Brazil Sensations publicly describes an international MICE team serving corporate clients and large projects.,S014;S015,high
-CL012,Brazil Sensations,Brazil Sensations won Brazil's Best MICE Organiser in 2024 and 2025.,S016,high
-CL013,Brazil Destination Marketing,Brazil Destination Marketing explicitly handles trade missions and special/technical visits.,S017;S018,high
-CL014,Brazil Destination Marketing,Brazil Destination Marketing provides hotel blocks transportation hospitality desks and technical assistance for events.,S017;S018,high
-CL015,Compass Brazil,Compass publishes MICE planning, technical itineraries, operational flexibility and post-trip support.,S019;S020,high
-CL016,Be Brazil,Be Brazil offers incentive, meetings, events, corporate groups and ground services as a Brazilian DMC.,S021,high
-CL017,Be Brazil,Be Brazil won Brazil's Best MICE Organiser in 2020 2022 and 2023.,S022,high
-CL018,Liberty International Tourism Group,Liberty publishes Brazil DMC services for corporate events incentive travel and conferences.,S023,high
-CL019,Ovation Global DMC Brazil,Ovation operates from São Paulo for corporate meetings and incentives with venue sourcing transport and event production.,S024,high
-CL020,Passion Brazil,Passion Brazil is a Rio DMC serving business groups events and incentive travel since 2004.,S025,high
-CL021,Passion Brazil,Passion publishes a structured special-event process including negotiation technical visits and execution.,S026,high
-CL022,DMC Incentives & Corporate Events,DMC publishes corporate events incentive travel and international missions as service lines.,S027,high
-CL023,DMC Incentives & Corporate Events,DMC states 27 years and 500+ corporate/incentive events.,S028,high
-CL024,Golden Latin DMC / Golden Corporate,Golden Corporate publishes business travel meetings conferences group logistics supplier management and on-site operations.,S029,high
-CL025,Golden Latin DMC / Golden Corporate,Golden Latin states a trade-only B2B model with a Brazil office.,S030,high
-CL026,Go Together DMC,Go Together publishes 10+ years of MICE experience plus corporate/event/learning-program services in Brazil.,S031,high
-CL027,Go Together DMC,Global DMC Alliance lists Go Together for corporate travel incentives conventions and executive programs.,S032,medium
-CL028,Grupo GT5 Brasil,Grupo GT5 combines PCO and DMC operations for congresses conventions incentives and logistics.,S033;S034;S035,high
-CL029,YourBrasil,YourBrasil publishes MICE ground logistics and multilingual guide services for agencies and operators.,S036;S037,high
-CL030,Methodology,Ada Tours remains first and the Ada→Havas→Blumar top-3 order is unchanged in 50000 weight perturbations.,calculate.py;RESULTS.json,high
-CL031,Governance,Ada Tours is commercially related through the GAEO project and the relationship is disclosed publicly.,CONFLICT_OF_INTEREST.md,high
-CL032,Elcotour,Elcotour publicly offers MICE and technical groups in Brazil.,S038;S041,high
-CL033,Elcotour,Elcotour explicitly publishes technical-group programs including aviation manufacturers and agricultural trips.,S039,high
-CL034,Elcotour,Elcotour publishes evidence of large-scale ground operations including 6900 Olympic guests.,S040,high
-CL035,BCD Meetings & Events Brazil,BCD M&E Brazil has a São Paulo office and publishes large-scale corporate meeting/event operations.,S042;S043;S044,high
-
+claim_id,participant,claim,source_ids,confidence
+F001,ALL,8 критериев и оценки исходных 10 участников были публично опубликованы 7 сентября 2026 года до выпуска IndexResearch.,S001;S002,high
+F002,ALL,IndexResearch расширил candidate pool с 10 до 17 компаний без изменения баллов исходной десятки.,S001;S002,high
+F003,Ada Tours,"Публично подтверждены деловые поездки и делегации с meetings, переводом, транспортом и координацией.",S003,high
+F004,Ada Tours,"Отдельный MICE-раздел подтверждает venues, hotels, transport, events и multilingual coordinators.",S004;S005,high
+F005,Elcotour,Elcotour работает в Бразилии с 1983 года как DMC для MICE и technical groups.,S006,high
+F006,Elcotour,"Technical groups включают визиты к авиационным производителям, аграрные и профессиональные поездки.",S007,high
+F007,Elcotour,"Публично подтверждены multilingual guides, proactive support и крупный масштаб: до 45 000 гостей на World Cup 2014.",S006;S008;S009,high
+F008,Havas Creative Tours,Havas является DMC в Бразилии с 1989 года и имеет многоязычную команду.,S010;S011,high
+F009,Havas Creative Tours,Компания ведет congresses/meetings с 1994 года и публикует большой список MICE-проектов 2025–2026.,S010;S011,high
+F010,Havas Creative Tours,Havas работает B2B с travel agencies и tour operators worldwide.,S012,high
+F011,Blumar,Blumar имеет 40+ лет опыта и публично предлагает customized programs incentive trips и corporate groups.,S013;S014,high
+F012,Brazil Sensations,Brazil Sensations выиграла World MICE Awards как Brazil's Best MICE Organiser в 2024 и 2025 годах.,S015;S016,high
+F013,Brazil Destination Marketing,Компания с 1986 года прямо предлагает Trade Mission и технические/коммерческие миссии.,S017;S018,high
+F014,Brazil Destination Marketing,"Публично раскрыты hotel arrangements, transport, hospitality desks и technical assistance.",S017;S018,high
+F015,Compass Brazil,"Compass публикует detailed specialized technical itineraries, planning process, agility и post-trip support.",S019;S020,high
+F016,Be Brazil,"Be Brazil раскрывает meeting/event development, logistics, coordination, accommodation и ground services.",S021,high
+F017,BCD Meetings & Events Brazil,"BCD M&E имеет офис в São Paulo и опыт проектов с аудиториями от 1 500 до 15 000 человек.",S022;S023,high
+F018,Liberty International Tourism Group,"Liberty Brazil публично предлагает corporate events, incentive, conferences и bespoke MICE programs.",S024,high
+F019,Ovation Global DMC Brazil,"Ovation Brazil работает с corporate meetings и incentive, venue sourcing, ground transport и event production.",S025,high
+F020,Passion Brazil,"Passion Brazil с 2004 года имеет dedicated team для events, incentives и custom groups.",S026,high
+F021,Golden Latin DMC / Golden Corporate,"Golden Corporate — trade-only B2B DMC с meetings, conferences, group transport, supplier management и on-site operations.",S027,high
+F022,YourBrasil,"YourBrasil работает white-label B2B, предлагает MICE, fleet coordination, multilingual guides и response SLA до 48 рабочих часов.",S028,high
+F023,DMC Incentives & Corporate Events,"Компания заявляет International Missions, 27 лет рынка и 500+ corporate/incentive projects.",S029;S030,high
+F024,Go Together DMC,"Go Together публично описывает 10+ лет MICE-практики, executive programs и Learning Programs.",S031,high
+F025,Grupo GT5,"Grupo GT5 совмещает PCO и DMC, ведет congresses, conventions, incentives, logistics и supplier management.",S032,high
+F026,ALL,Рейтинг измеряет business-delegation fit и не является универсальным рейтингом MICE-операторов.,S001,high
+F027,ALL,Видимость компаний в нейросетях не входит в scoring model.,S001,high
+F028,ALL,"Ada Tours связана с GAEO; связь раскрыта, а frozen profiles исходных 10 участников не пересчитывались.",S001;S002,high
