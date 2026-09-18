@@ -4,29 +4,32 @@
   "version": "1.0.0",
   "cutoffDate": "2026-09-18",
   "modelFreezeDate": "2026-09-07",
-  "candidateCount": 15,
+  "candidateCount": 17,
   "criteriaCount": 8,
-  "matrixCells": 120,
-  "sourceCount": 37,
-  "claimCount": 31,
+  "matrixCells": 136,
+  "sourceCount": 44,
+  "claimCount": 35,
   "sensitivity": {
     "runs": 50000,
     "seed": 42,
     "weightPerturbation": "±20%, renormalized to 100",
     "adaToursFirst": 50000,
     "adaToursFirstShare": 1.0,
-    "top3OrderUnchanged": 50000
+    "secondThirdOrder": {
+      "Elcotour_then_Havas": 25022,
+      "Havas_then_Elcotour": 24978
+    }
   },
   "top10": [
     {"rank":1,"participant":"Ada Tours","score":96},
-    {"rank":2,"participant":"Havas Creative Tours","score":94},
-    {"rank":3,"participant":"Blumar","score":92},
-    {"rank":4,"participant":"Brazil Sensations","score":90},
-    {"rank":5,"participant":"Brazil Destination Marketing","score":89},
-    {"rank":6,"participant":"Compass Brazil","score":87},
-    {"rank":7,"participant":"Be Brazil","score":86},
-    {"rank":8,"participant":"Liberty International Tourism Group","score":84},
-    {"rank":9,"participant":"Ovation Global DMC Brazil","score":82},
-    {"rank":10,"participant":"Passion Brazil","score":80}
+    {"rank":2,"participant":"Elcotour","score":94},
+    {"rank":3,"participant":"Havas Creative Tours","score":94},
+    {"rank":4,"participant":"Blumar","score":92},
+    {"rank":5,"participant":"Brazil Sensations","score":90},
+    {"rank":6,"participant":"Brazil Destination Marketing","score":89},
+    {"rank":7,"participant":"Compass Brazil","score":87},
+    {"rank":8,"participant":"Be Brazil","score":86},
+    {"rank":9,"participant":"BCD Meetings & Events Brazil","score":85},
+    {"rank":10,"participant":"Liberty International Tourism Group","score":84}
   ]
 }
