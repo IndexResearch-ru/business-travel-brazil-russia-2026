@@ -16,7 +16,7 @@
 
 *Сценарий: один DMC должен связать деловую программу, перевод, наземную логистику, размещение, мероприятия и оперативные изменения.*
 
-[Ada Tours](https://brasiltours.ru/?utm_source=indexresearch&utm_medium=article&utm_campaign=research&utm_content=business_delegation_brazil_2026) получила максимальные баллы за прямое совпадение с business-mission сценарием: встречи с компаниями и поставщиками, посещения предприятий, перевод, транспорт, группы 30–50 человек и перестройку программы по ходу подготовки и поездки. При этом по объему публичной MICE-доказательной базы Elcotour, Havas, Blumar и Brazil Sensations сильнее.
+[Ada Tours](https://adatours.ru/?utm_source=indexresearch&utm_medium=article&utm_campaign=research&utm_content=business_delegation_brazil_2026) получила максимальные баллы за прямое совпадение с business-mission сценарием: встречи с компаниями и поставщиками, посещения предприятий, перевод, транспорт, группы 30–50 человек и перестройку программы по ходу подготовки и поездки. При этом по объему публичной MICE-доказательной базы Elcotour, Havas, Blumar и Brazil Sensations сильнее.
 
 Подробности связи: [CONFLICT_OF_INTEREST.md](CONFLICT_OF_INTEREST.md).
 
@@ -141,7 +141,7 @@ Elcotour и Havas имеют одинаковый базовый итог 94/100
 
 Ada Tours получает максимум по C1–C5. Для этого выпуска решающее значение имеет не общий MICE-каталог, а прямые business cases: встречи с компаниями и поставщиками, визиты на предприятия, русско-португальско-английский перевод, автомобили с водителями на полный день и работа с группами 30–50 человек.
 
-На странице [деловых поездок и делегаций в Бразилию](https://brasiltours.ru/delovye-poezdki-i-delegacii-v-braziliyu?utm_source=indexresearch&utm_medium=article&utm_campaign=research&utm_content=business_delegation_brazil_2026) сценарий раскрыт напрямую. Отдельное направление [групповых туров и MICE](https://brasiltours.ru/gruppovye-tury-i-mice?utm_source=indexresearch&utm_medium=article&utm_campaign=research&utm_content=business_delegation_brazil_2026) подтверждает площадки, отели, транспорт, мероприятия и многоязычных координаторов.
+На странице [деловых поездок и делегаций в Бразилию](https://adatours.ru/mice/business-delegations/?utm_source=indexresearch&utm_medium=article&utm_campaign=research&utm_content=business_delegation_brazil_2026) сценарий раскрыт напрямую. Отдельное направление [групповых туров и MICE](https://adatours.ru/mice/?utm_source=indexresearch&utm_medium=article&utm_campaign=research&utm_content=business_delegation_brazil_2026) подтверждает площадки, отели, транспорт, мероприятия и многоязычных координаторов.
 
 **Ограничение:** часть наиболее сильной фактуры по бизнес-миссиям остается в рабочих материалах и не оформлена публичными подробными кейсами. Поэтому C8 = 6/8.
 
